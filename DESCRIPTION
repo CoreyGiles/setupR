@@ -1,7 +1,7 @@
 Package: setupR
 Type: Package
 Title: Helps make your R connect to our Q drive library
-Version: 0.1.0
+Version: 0.1.001
 Author: Millions of people on the internet... Thank you all!
 Maintainer: No one <pfft@no-one.com>
 Description: Run fixLibPath() to overwrite (it seriously overwrites it!) your Rprofile.site file.
@@ -13,8 +13,7 @@ LazyData: true
 RoxygenNote: 7.1.2
 Imports: 
     remotes,
-    shiny (>= 1.0.0),
-    shiny (<= 1.6.0),
+    shiny (== 1.6.0),
     shinyDirectoryInput (>= 0.2.0)
 Remotes: 
     wleepang/shiny-directory-input
