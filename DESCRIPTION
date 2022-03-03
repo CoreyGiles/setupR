@@ -1,7 +1,7 @@
 Package: setupR
 Type: Package
 Title: Helps make your R connect to our Q drive library
-Version: 0.1.002
+Version: 0.1.003
 Author: Millions of people on the internet... Thank you all!
 Maintainer: No one <pfft@no-one.com>
 Description: Run fixLibPath() to overwrite (it seriously overwrites it!) your Rprofile.site file.
