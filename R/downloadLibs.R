@@ -9,9 +9,13 @@
 downloadLibs = function()
 {
   ## Install shinyDirectoryInput
-  remotes::install_github('wleepang/shiny-directory-input',
+  devtools::install_github('wleepang/shiny-directory-input',
                           quiet=TRUE,
                           lib=.Library)
+  ## Install the correct version of shiny
+  devtools::install_version("shiny",
+                            version="1.6.0",
+                            repos="http://cran.us.r-project.org")
 
 }
 
