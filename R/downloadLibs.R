@@ -15,7 +15,9 @@ downloadLibs = function()
   ## Install the correct version of shiny
   devtools::install_version("shiny",
                             version="1.6.0",
-                            repos="http://cran.us.r-project.org")
+                            repos="http://cran.us.r-project.org",
+                            quiet=TRUE,
+                            lib=.Library)
 
 }
 
